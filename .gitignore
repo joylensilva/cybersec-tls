@@ -38,3 +38,4 @@ scripts/*.key
 scripts/*.csr
 scripts/*.jks
 scripts/*.p12
+scripts/*.srl
