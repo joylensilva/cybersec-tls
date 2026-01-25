@@ -90,12 +90,12 @@ Em seguida, habilite o TLS no arquivo de configuração [src/main/resources/appl
 
 ```yaml
 server:
-	ssl:
-		enabled: true
-		key-store: classpath:server-keystore.p12
-		key-store-password: changeit
-		key-store-type: PKCS12
-		key-alias: server
+  ssl:
+    enabled: true
+    key-store: classpath:server-keystore.p12
+    key-store-password: changeit
+    key-store-type: PKCS12
+    key-alias: server
 ```
 
 Observações:
@@ -121,16 +121,16 @@ Ative a autenticação mútua no [src/main/resources/application.yaml](src/main/
 
 ```yaml
 server:
-	ssl:
-		enabled: true
-		key-store: classpath:server-keystore.p12
-		key-store-password: changeit
-		key-store-type: PKCS12
-		key-alias: server
-		client-auth: need
-		trust-store: classpath:client-truststore.p12
-		trust-store-password: changeit
-		trust-store-type: PKCS12
+  ssl:
+    enabled: true
+    key-store: classpath:server-keystore.p12
+    key-store-password: changeit
+    key-store-type: PKCS12
+    key-alias: server
+    client-auth: need
+    trust-store: classpath:client-truststore.p12
+    trust-store-password: changeit
+    trust-store-type: PKCS12
 ```
 
 Teste o mTLS (cliente e servidor se autenticam):
