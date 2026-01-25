@@ -13,7 +13,7 @@ openssl req \
  -new \
  -key client.key \
  -out client.csr \
- -subj "/C=BR/ST=Sao Paulo/L=Sao Paulo/O=Cybersec Client/OU=MBA/CN=localhost" \
+ -subj "/C=BR/ST=Sao Paulo/L=Sao Paulo/O=Cybersec Client/OU=MBA/CN=client" \
  -addext "subjectAltName=DNS:localhost,DNS:client,IP:127.0.0.1" \
  -addext "basicConstraints=CA:FALSE" \
  -addext "keyUsage=digitalSignature,keyEncipherment" \
