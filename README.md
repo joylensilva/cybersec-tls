@@ -127,6 +127,7 @@ server:
     key-store-password: changeit
     key-store-type: PKCS12
     key-alias: server
+    
     client-auth: need
     trust-store: classpath:client-truststore.p12
     trust-store-password: changeit
