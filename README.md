@@ -156,6 +156,8 @@ A pasta `scripts/` contém os seguintes passos para uma aula/demonstração ao v
 
 Os scripts foram pensados para serem executados em sequência durante a aula, mostrando cada etapa da cadeia de confiança e da configuração do canal seguro.
 
+Os arquivos de `keystore` e `truststore` devem ser copiados para a pasta `src\main\resources` assim que forem gerados, para serem usados pela configuração do projeto.
+
 ## Conceitos-Chave Demonstrados
 
 - Certificados X.509, AC/CA e cadeia de confiança
